@@ -54,7 +54,7 @@
 /* If the screen size is 601px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
 .main {
-    font-size: 2vw;
+    font-size: 4.2vw;
     }
 }
 
