@@ -60,6 +60,13 @@
     font-size: 1.4vw; 
 }
 
+/* If the screen size is 600px wide or less, set the font-size of <column> */
+@media screen and (max-width: 600px) {
+.column {
+    font-size: 5vw;
+    }
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -76,15 +83,15 @@
 }
 
 
-/* Style the main */    
+/* Style the <main> */    
 .main {   
     background-color:white;   
     text-align: center; 
     padding: 10px;
-    /*font-size: 1.4vw;*/
+    font-size: 1.4vw;
     }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> */
+/* If the screen size is 600px wide or less, set the font-size of <main> */
 @media screen and (max-width: 600px) {
 .main {
     font-size: 5vw;
