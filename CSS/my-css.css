@@ -2,7 +2,8 @@
  * {   
     box-sizing: border-box;
     }
-  
+ 
+    
 /* Style the header */
 .header {     
     background-color:#133445; 
@@ -24,28 +25,45 @@
     font-size: 4.8vw;
     }
 }
- 
+
+
 /* Style the top navigation bar */
 .topnav {   
      overflow: hidden;   
      background-color: black;
-     font-size: 2vw;
     }
      
 /* Style the top navigation links */
 .topnav a {
-        float:left;   
-        display: block;
-        color:white;   
-        text-align: center;   
-        padding: 1.5vw 1vw;  
+    float:left;   
+    display: block;
+    color:white;   
+    text-align: center;   
+    padding: 1.5vw 1vw;  
     }
 
 /* Change link color on hover */
 .topnav a:hover {   
     background-color: white;
-        color:black;
+    color:black;
     }
+
+/* If the screen size is 601px wide or more, set the font-size of <header> */
+@media screen and (min-width: 601px) {
+.topnav {
+    font-size: 2vw;
+    }
+}
+    
+/* If the screen size is 600px wide or less, set the font-size of <header> */
+@media screen and (max-width: 600px) {
+.topnav {
+    font-size: 4.8vw;
+    }
+}
+
+
+
 
  /* Create two equal columns that float next to each other */
  .column {
@@ -96,19 +114,37 @@
     /*font-size: 1.4vw;*/
     }
 
+
+
 /* Style the footer */   
 .footer {   
     background-color:#133445; 
     color:#d0beaa;  
     text-align: center;   
     padding: 0.5vw;
-    font-size: 1.7vw;
     }
 
 /* Style the footer navigation links */
 .footernav a {
     color: white; 
     }
+
+/* If the screen size is 601px wide or more, set the font-size of <footer> */
+@media screen and (min-width: 601px) {
+.footer {
+    font-size: 1.7vw;
+    }
+}
+        
+/* If the screen size is 600px wide or less, set the font-size of <footer> */
+@media screen and (max-width: 600px) {
+.footer {
+    font-size: 5.1vw;
+    }
+}
+
+
+
 
 /* 
 img { 
