@@ -1,0 +1,95 @@
+/* Universal box sizing */
+ * {   
+    box-sizing: border-box;
+    }
+  
+/* Style the header */
+.header {     
+    background-color:#133445; 
+    color:#d0beaa; 
+    font-size: 2vw; 
+    text-align: center;   
+    padding: 0.5vw;
+    }
+ 
+/* Style the top navigation bar */
+.topnav {   
+     overflow: hidden;   
+     background-color: black;
+     font-size: 2vw;
+    }
+     
+/* Style the top navigation links */
+.topnav a {
+        float:left;   
+        display: block;
+        color:white;   
+        text-align: center;   
+        padding: 1.5vw 1vw;  
+    }
+
+/* Change link color on hover */
+.topnav a:hover {   
+    background-color: white;
+        color:black;
+    }
+
+ /* Create two equal columns that float next to each other */
+ .column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    background-color: white;
+    font-size: 1.4vw;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ /* Responsive layout - makes the two columns stack on top of each other
+  instead of next to each other */
+@media screen and (max-width:600px) {
+.column {
+    width: 100%;
+    }
+}
+
+/* Style the main */    
+.main {   
+    background-color:white;   
+    text-align: center; 
+    padding: 10px;
+    font-size: 1.4vw;
+    }
+
+/* Style the footer */   
+.footer {   
+    background-color:#133445; 
+    color:#d0beaa;  
+    text-align: center;   
+    padding: 0.5vw;
+    font-size: 1.7vw;
+    }
+
+/* Style the footer navigation links */
+.footernav a {
+    color: white; 
+    }
+
+/* 
+img { 
+    width: 100%; height: auto; 
+    } */
+
+/* 
+img { 
+    width: 48%; display: inline-block; 
+    } */
+
+/* 
+.figure{
+    display: inline-block;
+    } */
