@@ -37,18 +37,18 @@
     padding: 1.5vw 1vw;  
     }
 
+/* If the screen size is 600px wide or less, set the font-size of <topnav> */
+@media screen and (max-width: 600px) {
+.topnav a {
+    font-size: 4.8vw;
+    }
+}
+
 /* Change link color on hover */
 .topnav a:hover {   
     background-color: white;
     color:black;
     }
-    
-/* If the screen size is 600px wide or less, set the font-size of <topnav> */
-@media screen and (max-width: 600px) {
-.topnav {
-    font-size: 4.8vw;
-    }
-}
 
 
  /* Create two equal columns that float next to each other */
