@@ -10,14 +10,8 @@
     color:#d0beaa; 
     text-align: center;   
     padding: 0.5vw;
-    }
-
-/* If the screen size is 601px wide or more, set the font-size of <header> */
-@media screen and (min-width: 601px) {
-.header {
     font-size: 2vw;
     }
-}
 
 /* If the screen size is 600px wide or less, set the font-size of <header> */
 @media screen and (max-width: 600px) {
@@ -37,6 +31,7 @@
 .topnav a {
     float:left;   
     display: block;
+    font-size: 2vw;
     color:white;   
     text-align: center;   
     padding: 1.5vw 1vw;  
@@ -47,22 +42,13 @@
     background-color: white;
     color:black;
     }
-
-/* If the screen size is 601px wide or more, set the font-size of <header> */
-@media screen and (min-width: 601px) {
-.topnav {
-    font-size: 2vw;
-    }
-}
     
-/* If the screen size is 600px wide or less, set the font-size of <header> */
+/* If the screen size is 600px wide or less, set the font-size of <topnav> */
 @media screen and (max-width: 600px) {
 .topnav {
     font-size: 4.8vw;
     }
 }
-
-
 
 
  /* Create two equal columns that float next to each other */
@@ -71,25 +57,8 @@
     width: 50%;
     padding: 15px;
     background-color: white;
-    /* font-size: 1.4vw; */
+    font-size: 1.4vw; 
 }
-
-
-/* If the screen size is 601px wide or more, set the font-size of <div> */
-@media screen and (min-width: 601px) {
-.main {
-    font-size: 1.4vw;
-    }
-}
-
-/* If the screen size is 600px wide or less, set the font-size of <div> */
-@media screen and (max-width: 600px) {
-.main {
-    font-size: 5vw;
-    }
-}
-
-
 
 /* Clear floats after the columns */
 .row:after {
@@ -106,14 +75,28 @@
     }
 }
 
+
 /* Style the main */    
 .main {   
     background-color:white;   
     text-align: center; 
     padding: 10px;
-    /*font-size: 1.4vw;*/
+    font-size: 1.4vw;
     }
 
+/* If the screen size is 600px wide or less, set the font-size of <div> */
+@media screen and (max-width: 600px) {
+.main {
+    font-size: 5vw;
+    }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> */
+@media screen and (max-width: 600px) {
+.main.header {
+    font-size: 8vw;
+    }
+}
 
 
 /* Style the footer */   
