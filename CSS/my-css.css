@@ -84,19 +84,19 @@
     font-size: 1.4vw;
     }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> */
+/* If the screen size is 600px wide or less, set the font-size of <main> */
 @media screen and (max-width: 600px) {
 .main {
     font-size: 5vw;
     }
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> */
+/* If the screen size is 600px wide or less, set the font-size of <div> 
 @media screen and (max-width: 600px) {
 .main.header {
     font-size: 8vw;
     }
-}
+} */
 
 
 /* Style the footer */   
