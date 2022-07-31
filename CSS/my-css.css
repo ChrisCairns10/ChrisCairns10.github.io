@@ -13,7 +13,7 @@
     font-size: 2vw;
     }
 
-/* If the screen size is 600px wide or less, set the font-size of <header> */
+/* If the screen size is 600px wide or less, reset the font-size of header */
 @media screen and (max-width: 600px) {
 .header {
     font-size: 4.8vw;
@@ -37,10 +37,10 @@
     padding: 1.5vw 1vw;  
     }
 
-/* If the screen size is 600px wide or less, set the font-size of <topnav> */
+/* If the screen size is 600px wide or less, reset the font-size of top navigation links */
 @media screen and (max-width: 600px) {
 .topnav a {
-    font-size: 4.8vw;
+    font-size: 5vw;
     }
 }
 
@@ -60,7 +60,14 @@
     font-size: 1.4vw; 
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <column> */
+/* If the screen size is 600px wide or less, reset the font-size of column.header */
+@media screen and (max-width: 600px) {
+.column.header {
+    font-size: 6vw;
+    }
+}
+
+/* If the screen size is 600px wide or less, reset the font-size of column */
 @media screen and (max-width: 600px) {
 .column {
     font-size: 5vw;
@@ -83,7 +90,7 @@
 }
 
 
-/* Style the <main> */    
+/* Style the main */    
 .main {   
     background-color:white;   
     text-align: center; 
@@ -91,14 +98,7 @@
     font-size: 1.4vw;
     }
 
-/* If the screen size is 600px wide or less, set the font-size of <main.header> */
-@media screen and (max-width: 600px) {
-.main.header {
-    font-size: 6vw;
-    }
-}
-
-/* If the screen size is 600px wide or less, set the font-size of <main> */
+/* If the screen size is 600px wide or less, reset the font-size of main */
 @media screen and (max-width: 600px) {
 .main {
     font-size: 5vw;
@@ -119,21 +119,13 @@
 .footernav a {
     color: white; 
     }
-
-/* If the screen size is 601px wide or more, set the font-size of <footer> 
-@media screen and (min-width: 601px) {
-.footer {
-    font-size: 1.7vw;
-    }
-} */
         
-/* If the screen size is 600px wide or less, set the font-size of <footer> */
+/* If the screen size is 600px wide or less, reset the font-size of footer */
 @media screen and (max-width: 600px) {
 .footer {
     font-size: 5.1vw;
     }
 }
-
 
 
 
