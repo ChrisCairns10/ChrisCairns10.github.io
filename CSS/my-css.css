@@ -40,7 +40,7 @@
 /* If the screen size is 600px wide or less, reset the font-size of top navigation links */
 @media screen and (max-width: 600px) {
 .topnav a {
-    font-size: 5vw;
+    font-size: 5.1vw;
     }
 }
 
@@ -60,12 +60,12 @@
     font-size: 1.4vw; 
 }
 
-/* If the screen size is 600px wide or less, reset the font-size of column.header */
+/* If the screen size is 600px wide or less, reset the font-size of column.header 
 @media screen and (max-width: 600px) {
 .column.header {
     font-size: 6vw;
     }
-}
+} */
 
 /* If the screen size is 600px wide or less, reset the font-size of column */
 @media screen and (max-width: 600px) {
