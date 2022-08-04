@@ -124,11 +124,10 @@
 /* Calendar - make the iframe responsive for mobile devices */
 .responsiveCal {
     position: relative; 
-    /*padding-bottom: 75%;*/
-    padding-bottom: 50%; 
+    padding-bottom: 75%; 
     height: 0; 
     /*overflow: hidden;*/   
-    width: 50%;
+    width: 100%;
     }
      
 .responsiveCal iframe {   
