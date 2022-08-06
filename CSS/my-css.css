@@ -141,26 +141,33 @@
     top: 0; 
     left: 0; 
     width: 100%; 
-    height: 100%;  
+    height: 100%; 
+    background-color:#133445;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%; 
     }
 
 
-/* Set home page image width and height */
-.imgHome { 
-    width: 100%; 
+/* Set image style */
+.images { 
+    max-width: 100%; 
     height: auto; 
+    background-color:#133445;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%; 
     } 
-
-/* Set Menu page images width and height*/
-.imgMenu {
-    max-width:100%;
-    height:auto;
-    }
 
 
 /* Style each google form div */
 .formStyle {
     background-color:#133445;
+    color:white; 
     padding-top: 1%;
-    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%; 
     }
