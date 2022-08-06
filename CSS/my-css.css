@@ -44,8 +44,8 @@
     }
 }
 
-/* Change link color on hover */
-.topnav a:hover {   
+/* Change top navigation link colours on hover and keyboard tab */
+.topnav a:hover, a:focus {   
     background-color: white;
     color:black;
     }
@@ -85,7 +85,7 @@
 
 /* Style the main */    
 .main {   
-    background-color:white;   
+    background-color:white; 
     text-align: center; 
     padding: 10px;
     font-size: 1.4vw;
@@ -111,6 +111,12 @@
 /* Style the footer navigation links */
 .footernav a {
     color: white; 
+    }
+
+/* Change footer link colours on hover and keyboard tab */
+.footernav a:hover, a:focus {   
+    background-color: white;
+    color:black;
     }
         
 /* If the screen size is 600px wide or less, reset the font-size of footer */
@@ -150,3 +156,15 @@
     max-width:100%;
     height:auto;
     }
+
+
+/* Style the Reservation form div */
+.reservation {
+    background-color:#133445;
+    /*margin-top: 0%;*/
+    margin-left: 25%;
+    margin-right: 25%;
+    /*margin-bottom: 0%;*/
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
